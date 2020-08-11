@@ -17,14 +17,6 @@ var num1 = 0;
 var num2 = 0;
 var operator = 0;
 
-// if(ques == 6){
-//     if(score==5)
-//     {
-//         document.getElementById('gameover').innerHTML = "Yay! You won Champ ;)"       
-//     }
-//  document.getElementById('gameover').innerHTML = "Game over! Your score is " + score +  " :)"
-// //  document.getElementById("Container").style.display="none";
-// }
 
 getQuestion();
 
