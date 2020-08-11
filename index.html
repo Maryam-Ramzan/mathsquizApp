@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math's Quiz</title>
+</head>
+<body>
+    <section id='startcontainer'>
+        <button onclick="del(this)" id="button2">Start game</button>
+    </section>
+    <div id="Container">
+        <div id="score"><h3>Score: 0</h3></div>
+        <div id="ques"><h3>Question: 01</h3></div>
+        <p>  <br> Solve the Expression </p>
+        <div id="question"></div>
+        <input type="number" name="answer" id="answer"  class="result" autocomplete="off" placeholder="Enter answer here">
+        <button class="btn" onClick="fire()" >Check</button>
+    </div>
+    <section id='endgame'>
+        <div id="gameover"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+#Container{
+    display: none;
+}
+
+#endgame{
+    display: none;
+}
+
+#Container{
+	height: 300px;
+	width: 700px;
+	position: absolute;
+	top:20%;
+	left:20%;
+	background: yellow;
+	padding: 20px;
+	border: 1px solid #cd1c6d;
+	box-shadow: 0 0 8px 3px #fff;
+		border-radius: 20px;
+
+}
+#question{
+	padding: 20px;
+	font-size: 20px;
+	background: coral;  /*mediumBlue*/
+	border-radius: 20px;
+	width: 95%;
+	font-weight:bold;
+	margin: 10px 0 10px 0;
+    font-family:Times New Roman;
+    color: Black;
+	font-weight:bold;}
+
+.opt{
+    width: 470px;
+    margin-left:5px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+#score{
+    font-size: 27px;
+    font-weight:bold;
+    font-family:Times New Roman;
+
+ 
+}
+#life, p{
+    font-size: 22px;
+    font-weight:bold;
+    font-family:Times New Roman;
+    margin: 0;
+	padding:0;
+ 
+}
+
+h3{
+ margin: 0;
+	padding:0;
+}
+.result{
+	    width: 80%;
+		font-size: 24px;
+    font-weight:bold;
+   margin-left:10px;
+       padding: 10px;
+   
+
+}
+.btn{
+    
+    background: salmon;
+    color: White;
+    width: 100px;
+    height: 42px;
+    
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.btn:hover{
+    background: Yellow;
+    color: Black;
+}
+
+#endgame{
+    background: light gray;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+#startcontainer{
+    background-image: url('mathcon.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 0%;
+    left: 14%;
+}
+#button2{
+    box-shadow: 0px 1px 0px 0px rgb(187, 218, 247) inset;
+    background: rgb(103, 208, 246) linear-gradient(to bottom, rgb(103, 208, 246) 5%, rgb(61, 153, 184) 100%) repeat scroll 0% 0%;
+    border-radius: 9px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    font-size: 20pt;
+    padding: 6px 24px;
+    position: relative;
+    top: 60%;
+    left: 40%;
+    text-decoration: none;
+text-shadow: 0px 1px 0px rgb(60, 143, 173);}
+
+
+#gameover{
+	    width: 70%;
+    background: #fff;
+    margin: auto;
+	    margin-top:20%;
+	background: mediumorchid;
+}
